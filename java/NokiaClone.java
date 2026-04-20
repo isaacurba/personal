@@ -21,7 +21,6 @@ public class NokiaClone{
                 System.out.println("12.Profiles ");       
                 System.out.println("13. Sim Services");                   
                 System.out.println("0. Terminate");   
-                
                 System.out.print("Select an option: ");
                 int inNokia = inputCollector.nextInt();
                 

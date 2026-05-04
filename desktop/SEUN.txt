@@ -1,0 +1,10 @@
+THIS IS TO RUN THE CODE 
+
+java -cp "junit-platform-console-standalone-1.11.0.jar:out" org.junit.platform.console.ConsoleLauncher --scan-class-path
+
+
+
+
+THIS IS TO COMPILE THE CODE
+
+javac -cp "junit-platform-console-standalone-1.11.0.jar:out" -d out *.java

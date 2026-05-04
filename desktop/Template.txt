@@ -1,0 +1,54 @@
+BASIC TEMPLATE
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+    }
+}
+
+
+WITHOUT INPUT
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+
+        input.close();
+    }
+}
+
+
+FOR METHOD
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = input.nextInt();
+
+        int result = square(number);
+        System.out.println("Result: " + result);
+
+        input.close();
+    }
+
+    public static int square(int num) {
+        return num * num;
+    }
+}
+
+
+
+
+
